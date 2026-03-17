@@ -6,7 +6,7 @@ const cards = [
   { emoji: '💌', label: 'You', path: '/you', color: 'rgba(196, 181, 253, 0.12)', desc: 'words I mean', accent: '#C4B5FD' },
   { emoji: '✨', label: 'Little Things', path: '/little-things', color: 'rgba(147, 197, 253, 0.12)', desc: 'things I notice', accent: '#93C5FD' },
   { emoji: '🎮', label: 'Fun Zone', path: '/fun-zone', color: 'rgba(110, 231, 183, 0.10)', desc: 'let\'s play', accent: '#6EE7B7' },
-  { emoji: '📸', label: 'Moments', path: '/moments', color: 'rgba(255, 209, 102, 0.10)', desc: 'us, captured', accent: '#FFD166' },
+  { emoji: '📸', label: 'Moments', path: '/moments', color: 'rgba(255, 209, 102, 0.10)', desc: 'you, captured', accent: '#FFD166' },
   { emoji: '🎁', label: 'Surprise', path: '/surprise', color: 'rgba(253, 130, 150, 0.12)', desc: 'open me', accent: '#FD8296' },
 ];
 
