@@ -1,0 +1,7 @@
+remote: error: Trace: 5e9cc8d1a6f52ce481da43033332b59b1def6f9b2df3b2894924b7a42e911974        
+remote: error: See https://gh.io/lfs for more information.        
+remote: error: File public/music/ambient.mp3 is 154.35 MB; this exceeds GitHub's file size limit of 100.00 MB        
+remote: error: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        
+To https://github.com/yash-somani/Birthday.git
+ ! [remote rejected] main -> main (pre-receive hook declined)
+error: failed to push some refs to 'https://github.com/yash-somani/Birthday.git'
