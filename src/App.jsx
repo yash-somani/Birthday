@@ -20,7 +20,7 @@ function AnimatedRoutes() {
   return (
     <PageTransition>
       <Routes location={location} key={location.pathname}>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<LockScreen />} />
         <Route path="/unlock" element={<UnlockScreen />} />
         <Route path="/home" element={<Home />} />
         <Route path="/you" element={<YouSection />} />
