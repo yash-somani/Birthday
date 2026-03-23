@@ -3,16 +3,13 @@ import { motion, AnimatePresence } from 'framer-motion';
 import BackButton from '../components/ui/BackButton';
 
 const items = [
-  {
-    emoji: '☕', label: 'Coffee', message: "I'm convinced coffee is your personality trait 😌",
-    color: '#FFF1F3'
-  },
+ 
   {
     emoji: '🗣️', label: 'Gossip', message: "Admit it, gossiping is your favorite hobby... and I love hearing it all 🤭",
     color: '#F0FDF4'
   },
   {
-    emoji: '🎧', label: 'Music', message: "Music really is your escape, isn't it? 🎵",
+    emoji: '🎧', label: 'Music', message: "Always loved the soft romantic music, hope you get to live those too 🎵🫣 ",
     color: '#EFF6FF'
   },
   {
@@ -22,6 +19,11 @@ const items = [
   {
     emoji: '💙', label: 'Dark Blue', message: "Dark blue... just like the sky we started under 🌌",
     color: '#F5F3FF'
+  },
+  
+   {
+    emoji: '☕', label: 'Coffee', message: "I'm convinced coffee is your personality trait 😌",
+    color: '#FFF1F3'
   },
   {
     emoji: '🍬', label: 'Sugar', message: "Even if you have sugar, you are the sweetest person I have ever met 💙",
