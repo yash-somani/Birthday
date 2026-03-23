@@ -8,8 +8,8 @@ const questions = [
   {
     question: "What improves Tanu's mood instantly? 🤔",
     options: ['Pizza 🍕', 'Coffee ☕', 'Music 🎧', 'Sleep 😴'],
-    correct: 1,
-    response: "Obviously coffee! ☕ it's basically your lifeline at this point 😌",
+    correct: 3,
+    response: "Obviously sleep! ☕ it's basically your lifeline at this point 😌",
   },
   {
     question: "Tanu's secret superpower is… 🦸‍♀️",
