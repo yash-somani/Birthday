@@ -128,12 +128,32 @@ export default function Letter() {
           ))}
         </div>
 
+        {/* Photo */}
+        <motion.div
+          className="mt-8 mb-4 flex justify-center"
+          initial={{ opacity: 0, y: 20, scale: 0.9 }}
+          animate={{ opacity: 1, y: 0, scale: 1 }}
+          transition={{ delay: letterLines.length * 0.12 + 0.8, duration: 0.8, ease: [0.4, 0, 0.2, 1] }}
+        >
+          <img
+            src="/images/bd.jpeg"
+            alt="Birthday memory"
+            style={{
+              width: '100%',
+              maxWidth: '360px',
+              borderRadius: '16px',
+              boxShadow: '0 8px 30px rgba(123,158,255,0.15), 0 2px 8px rgba(0,0,0,0.2)',
+              border: '2px solid rgba(255,255,255,0.08)',
+            }}
+          />
+        </motion.div>
+
         {/* Signature decoration */}
         <motion.div
           className="text-center mt-8 opacity-30"
           initial={{ opacity: 0 }}
           animate={{ opacity: 0.3 }}
-          transition={{ delay: letterLines.length * 0.12 + 1 }}
+          transition={{ delay: letterLines.length * 0.12 + 1.8 }}
         >
           ✦ ✦ ✦
         </motion.div>
